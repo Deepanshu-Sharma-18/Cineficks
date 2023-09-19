@@ -253,7 +253,7 @@ class BaseClient {
     if (response.statusCode == 200) {
       //final jsonResponse = jsonDecode(response.body);
       if (kDebugMode) {
-        print(response.body.toString());
+        print("now playing : " + response.body.toString());
       }
       return nowPlayingFromJson(response.body);
     } else {

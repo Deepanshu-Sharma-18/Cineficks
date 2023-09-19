@@ -8,12 +8,6 @@ import 'package:moviesapi/Controller/popularcontroller.dart';
 import 'package:moviesapi/Controller/topratedcontroller.dart';
 import 'package:moviesapi/Controller/upcoming.dart';
 import 'package:moviesapi/Screens/mainscreen.dart';
-import 'package:moviesapi/Screens/moviedetailsscreen.dart';
-import 'package:moviesapi/Screens/nowplayingscreen.dart';
-import 'package:moviesapi/Screens/popularmovie.dart';
-import 'package:moviesapi/Screens/search.dart';
-import 'package:moviesapi/Screens/topratedscreen.dart';
-import 'package:moviesapi/Screens/upcomingscreen.dart';
 
 void main() {
   runApp(const MyApp());
